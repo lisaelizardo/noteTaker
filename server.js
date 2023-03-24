@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 3015;
+const PORT = process.env.PORT || 3000;
 
 app.get('/notes', (req, res) =>
   res.send(
